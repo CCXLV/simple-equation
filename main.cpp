@@ -12,7 +12,7 @@ int main() {
     first = t;
     second = t + 5;
 
-    l = (length / first) + (length / second);
+    l = (length / first) + (length / second) - 1;
 
     std::cout << l;
 
